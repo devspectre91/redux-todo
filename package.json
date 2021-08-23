@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/devspectre91/redux-todo/issues"
   },
-  "homepage": "https://github.com/devspectre91/redux-todo#readme"
+  "homepage": "https://github.com/devspectre91/redux-todo#readme",
+  "dependencies": {
+    "bulma": "^0.9.3"
+  }
 }

@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Todos</title>
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.1/redux.min.js"
+      integrity="sha512-F21iSaHGX/3NFz5SuwoH6pGhTPxtoJoWWULqQVPQPtLm7nbK5r8vRSSSYy3Aj+H39cVrVm4+3ikGoVD1AjE0sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="has-background-light">
+    <header class="container">
+      <h1 class="is-size-1 has-text-centered has-text-dark">Todos</h1>
+      <div class="columns is-centered mx-6">
+        <div class="field column is-three-quarters my-4">
+          <div class="control">
+            <input
+              class="input px-4 py-5"
+              type="text"
+              placeholder="What needs to be done?"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="columns is-centered mx-6 is-multiline">
+        <ul class="column is-three-quarters">
+          <li class="message m-0 mb-1 is-white ">
+            <div class="message-header pl-6	 is-size-5">
+				
+              Play Tennis <button class="delete has-background-danger"></button>
+            </div>
+          </li>
+          <li class="message m-0 mb-1 is-white">
+            <div class="message-header pl-6	is-size-5 has-text-dark">
+				
+              got to temple<button class="delete has-background-danger"></button>
+            </div>
+          </li>
+          <li class="message m-0 mb-1 is-white">
+            <div class="message-header pl-6	is-size-5 has-text-dark">
+				
+            watch flight simlumation ssfdds sg dfg <button class="delete has-background-danger"></button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
